@@ -16,6 +16,9 @@ import { login } from '../actions/auth';
 import { PublicRoute } from './PublicRoute';
 import { startLoadingNotes } from '../actions/notes';
 import useBreakpoint from '../hooks/useBreakpoint'
+import {GobernacionScreen} from '../components/screen/Gobernacion';
+import {AlcaldiaScreen} from '../components/screen/Alcaldia';
+import {ConcejalesScreen} from '../components/screen/Concejales';
 export const AppRouter = () => {
 
     const dispatch = useDispatch();
@@ -49,7 +52,7 @@ export const AppRouter = () => {
 
     if ( checking ) {
         return (
-            <h1>Wait...</h1>
+            <h1>Cargando...</h1>
         )
     }
 
@@ -70,6 +73,25 @@ export const AppRouter = () => {
                         path="/"
                         component={ JournalScreen }
                     />
+                      <PrivateRoute 
+                        exact
+                        isAuthenticated={ isLoggedIn }
+                        path="/gobernacion"
+                        component={ GobernacionScreen }
+                    />
+  <PrivateRoute 
+                        exact
+                        isAuthenticated={ isLoggedIn }
+                        path="/alcaldia"
+                        component={ AlcaldiaScreen }
+                    />
+ <PrivateRoute 
+                        exact
+                        isAuthenticated={ isLoggedIn }
+                        path="/concejales"
+                        component={ ConcejalesScreen }
+                    />
+
         </Menu>
                     <Redirect to="/auth/login" />
 

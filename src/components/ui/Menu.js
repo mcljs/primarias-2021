@@ -26,7 +26,7 @@ export default function Menu({ children, isStatic, isClosed, setClosed }) {
             }`}
           >
             <FocusTrap isActive={!isStatic}>
-              <SidebarMenu />
+              <SidebarMenu  isClosed={isClosed} setClosed={setClosed}/>
             </FocusTrap>
           </aside>
         </Transition>
