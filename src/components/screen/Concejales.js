@@ -19,7 +19,7 @@ export const ConcejalesScreen = () => {
         <hr className="nt-8 border-t-2 w-20 mx-auto"/>
       </h1>
         <div className="mt-[1600px] pr-20">
-            <iframe className="responsive-iframe md:pl-[250px] pl-4" src="https://docs.google.com/forms/d/e/1FAIpQLSd8OxM7yz4UiGvEmmVk1Q6Jrs6vHaLiHTKLbZqhgxJUGd3ecg/viewform?embedded=true"></iframe>
+           
 </div>
      
     </header>
