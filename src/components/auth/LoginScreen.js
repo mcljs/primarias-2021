@@ -49,7 +49,7 @@ export const LoginScreen = () => {
             <div class="w-full py-6 z-20">
              
                 <div class="py-6 space-x-2 text-4xl font-bold">
-               PSUV 2021 - APC
+               SGSC PSUV 2021 - APC
                 </div>
               
                 <form  onSubmit={ handleLogin } class="sm:w-2/3 w-full px-4 lg:px-0 mx-auto animate__animated animate__fadeIn animate__faster">
