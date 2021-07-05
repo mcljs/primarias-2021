@@ -1,3 +1,3 @@
-# JournalApp
+# Primarias 
 
-Una aplicación para llevar mi diario hecha con React y Redux.
+Una aplicación  hecha con React y Redux.
