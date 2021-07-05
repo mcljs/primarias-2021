@@ -15,7 +15,7 @@ export const GobernacionScreen = () => {
           
       <header>
       <h1 className="flex flex-col items-center">
-        <h1 className="mt-2 mb-8 font-extrabold text-center tracking-tight text-[#e41e25] lg:text-4xl sm:text-3xl text-2xl">Agenda de Campaña Candidatos/as a  Gobernación</h1>
+        <h1 className="mt-2 mb-8 font-extrabold text-center tracking-tight text-[#e41e25] lg:text-4xl sm:text-3xl text-2xl">Agenda de Campaña Candidatos/as a  Gobernaciónes</h1>
         <hr className="nt-8 border-t-2 w-20 mx-auto"/>
       </h1>
         <div className="mt-[1600px] pr-20">

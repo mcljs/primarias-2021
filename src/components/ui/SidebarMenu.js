@@ -30,7 +30,7 @@ const SidebarMenu = ({ setClosed, isStatic }) => {
                   
                     </span>
                     <span className="ml-2 text-sm tracking-wide truncate">
-                   Gobernación
+                   Gobernaciones
                     </span>
                   </Link>
                 </li>
@@ -44,7 +44,7 @@ onClick={() => setClosed(true)}
                   
                     </span>
                     <span className="ml-2 text-sm tracking-wide truncate">
-                       Alcaldia
+                       Alcaldias
                     </span>
                   </Link>
                 </li>
@@ -58,7 +58,7 @@ onClick={() => setClosed(true)}
                   
                     </span>
                     <span className="ml-2 text-sm tracking-wide truncate">
-                       Concejales
+                       Concejos Municipales
                     </span>
                   </Link>
                 </li>
