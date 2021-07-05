@@ -109,8 +109,9 @@ export const RegisterScreen = () => {
   <div class="pb-2 pt-4">
                         <input    
                           type="password"
-                    placeholder="Password"
-                    name="Contraseña"
+                            placeholder="Contraseña"
+
+                            name="password"
                     value={ password }
                     onChange={ handleInputChange }
                                       autoComplete="off"
