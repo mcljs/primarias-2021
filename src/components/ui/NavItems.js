@@ -20,7 +20,7 @@ const NavItems = ({ isStatic, isClosed, setClosed }) => {
  const [scroll] = React.useState(false)
     return(
   <>
-     <div active={scroll} className=" flex h-16 z-50 bg-gray-100 border-b border-red-200 dark:border-brown-six   px-6 grid grid-cols-3" style={{position: 'sticky',top: '0', }}>
+     <div active={scroll} className=" flex h-16 z-50 bg-[#111827] border-b border-white dark:border-brown-six   px-6 grid grid-cols-3" style={{position: 'sticky',top: '0', }}>
      
  <div className="flex items-center">
        {!isStatic &&
@@ -69,10 +69,10 @@ const NavItems = ({ isStatic, isClosed, setClosed }) => {
     <div className="flex items-center justify-left"> </div>
 
     <div className="flex items-center justify-end">
-      
-      <p className="text-red-600 dark:text-[#ed80le] md:text-lg text-xs font-medium bg-white px-7 py-2 rounded-md mr-2 flex">
-        {name}
-      </p>
+   <p className="text-white dark:text-[#ed80le] bg-[#1f2937]  md:text-lg text-xs font-medium bg-white px-2 py-2 rounded-md mr-2 flex">
+     <span>{name} </span>
+      </p>     
+    
 
 
      

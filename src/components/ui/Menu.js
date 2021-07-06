@@ -44,7 +44,7 @@ export default function Menu({ children, isStatic, isClosed, setClosed }) {
           <div className="fixed inset-0 bg-black opacity-0" />
         </Transition>
 
-        <main className="flex-grow flex flex-col min-h-screen">{children}</main>
+        <main className="flex-grow flex flex-col min-h-screen bg-[#111827]">{children}</main>
       </div>
     </>
   );
