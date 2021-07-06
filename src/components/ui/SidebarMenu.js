@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom'
 const SidebarMenu = ({ setClosed, isStatic }) => {
   return (
     <>
-      {!isStatic && (
+    
       <div className="border-r py-4 flex-grow bg-[#1f2937]">
         <div className="min-h-screen flex flex-col flex-auto flex-shrink-0 antialiased bg-green-600 text-gray-800">
           <div className="fixed flex flex-col top-0 left-0 w-64 bg-white h-full border-r">
@@ -68,7 +68,7 @@ onClick={() => setClosed(true)}
           </div>
         </div>{" "}
       </div>
-      )}
+     
     </>
   );
 };

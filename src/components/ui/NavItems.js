@@ -23,7 +23,7 @@ const NavItems = ({ isStatic, isClosed, setClosed }) => {
      <div active={scroll} className=" flex h-16 z-50 bg-[#0e182a] border-b border-white dark:border-brown-six   px-6 grid grid-cols-3" style={{position: 'sticky',top: '0', }}>
      
  <div className="flex items-center">
-       {!isStatic &&
+       {
             (isClosed ? (
             <button
              tabIndex="1"
@@ -55,7 +55,8 @@ const NavItems = ({ isStatic, isClosed, setClosed }) => {
 </svg>
             </button>
           ))}
-   <Link to="/">
+   <Link to="/"   onClick={() => setClosed(true)}
+>
   <img className="pl-4 w-32"  src="/psuv.png" alt="logo"/>
 
    </Link>

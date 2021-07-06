@@ -7,13 +7,13 @@ import SidebarMenu from "./SidebarMenu";
 export default function Menu({ children, isStatic, isClosed, setClosed }) {
   return (
     <>
-      <NavItems isStatic={isStatic} isClosed={isClosed} setClosed={setClosed} />
+      <NavItems  isClosed={isClosed} setClosed={setClosed} />
 
       <div className="w-full h-24  bg-opacity-95 absolute top-0 left-0"></div>
 
       <div className="flex  ">
         <Transition
-          show={isStatic || !isClosed}
+          show={ !isClosed}
           enter="transition-all duration-500"
           enterFrom="-ml-64"
           enterTo="ml-0"
