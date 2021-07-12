@@ -21,7 +21,8 @@ export const ConcejalesScreen = () => {
         <div className="mt-[1600px] pr-20">
            <iframe className="responsive-iframe md:pl-[70px] pl-4" src="https://docs.google.com/forms/d/e/1FAIpQLSeXjXtLriOloT8cMyfcz5aiHlKEjf10wT19nR4JiVYGOrcF0Q/viewform?embedded=true"></iframe>    
 </div>
-     
+    
+
     </header>
 
 
