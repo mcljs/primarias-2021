@@ -19,6 +19,7 @@ import useBreakpoint from '../hooks/useBreakpoint'
 import {GobernacionScreen} from '../components/screen/Gobernacion';
 import {AlcaldiaScreen} from '../components/screen/Alcaldia';
 import {ConcejalesScreen} from '../components/screen/Concejales';
+import {LegislativosScreen} from '../components/screen/Legislativos';
 export const AppRouter = () => {
 
     const dispatch = useDispatch();
@@ -90,6 +91,12 @@ export const AppRouter = () => {
                         isAuthenticated={ isLoggedIn }
                         path="/concejales"
                         component={ ConcejalesScreen }
+                    />
+ <PrivateRoute 
+                        exact
+                        isAuthenticated={ isLoggedIn }
+                        path="/legislativos"
+                        component={ LegislativosScreen }
                     />
 
         </Menu>
