@@ -58,7 +58,7 @@ onClick={() => setClosed(true)}
                   
                     </span>
                     <span className="ml-2 text-sm tracking-wide truncate">
-                       Consejos Legislativos
+                       Concejos Legislativos
                     </span>
                   </Link>
                 </li>
