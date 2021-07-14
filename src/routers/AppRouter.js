@@ -22,6 +22,8 @@ import {ConcejalesScreen} from '../components/screen/Concejales';
 import {LegislativosScreen} from '../components/screen/Legislativos';
 import PerfilGobernacion from '../components/screen/perfil-gobernacion';
 import PerfilAlcaldia from '../components/screen/perfil-alcaldia';
+import Loaded from '../components/Loaded';
+
 export const AppRouter = () => {
 
     const dispatch = useDispatch();
@@ -55,7 +57,23 @@ export const AppRouter = () => {
 
     if ( checking ) {
         return (
-            <h1>Cargando...</h1>
+                <div
+        key={`loaded`}
+        style={{
+          alignItems: "center",
+          backgroundColor: "#0e182a",
+          display: "flex",
+          justifyContent: "center",
+          position: "absolute",
+          left: 0,
+          top: 0,
+          right: 0,
+          bottom: 0,
+
+        }}
+        >
+        <Loaded /> 
+        </div>
         )
     }
 
