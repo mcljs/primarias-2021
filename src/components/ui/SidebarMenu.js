@@ -13,42 +13,7 @@ const SidebarMenu = ({ setClosed, isStatic }) => {
             </div>
             <div className="overflow-y-auto overflow-x-hidden flex-grow  bg-[#1f2937]">
               <ul className="flex flex-col py-4 space-y-1">
-                <li className="px-5">
-                  <div className="flex flex-row items-center  h-8">
-                    <div className="mt-4 text-sm font-light tracking-wide text-white ">
-                      Agenda de Campaña Candidatos/as
-                    </div>
-                  </div>
-                </li>
-                <li>
-                      <Link
-                    to="/gobernacion"
-          onClick={() => setClosed(true)}
-                    className="mt-4 relative flex flex-row items-center h-11 font-bold focus:outline-none hover:bg-[#111827] text-white border-l-8 border-transparent hover:border-red-800 pr-6"
-                  >
-                    <span className="inline-flex justify-center items-center ml-4">
-                  
-                    </span>
-                    <span className="ml-2 text-sm tracking-wide truncate">
-                   Gobernaciones
-                    </span>
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    to="/alcaldia"
-onClick={() => setClosed(true)}
-                    className="mt-2 relative flex flex-row items-center h-11 font-bold focus:outline-none hover:bg-[#111827] text-white border-l-8 border-transparent hover:border-red-800 pr-6"
-                  >
-                    <span className="inline-flex justify-center items-center ml-4">
-                  
-                    </span>
-                    <span className="ml-2 text-sm tracking-wide truncate">
-                       Alcaldias
-                    </span>
-                  </Link>
-                </li>
-
+             
 
    <li className="px-6 py-4">
                   <div className="flex flex-row items-center  h-8">
@@ -86,6 +51,42 @@ onClick={() => setClosed(true)}
                     </span>
                   </Link>
                 </li>
+   <li className="px-5">
+                  <div className="flex flex-row items-center  h-8">
+                    <div className="mt-4 text-sm font-light tracking-wide text-white ">
+                      Agenda de Campaña del<br/> Pre Candidatos/as
+                    </div>
+                  </div>
+                </li>
+                <li>
+                      <Link
+                    to="/gobernacion"
+          onClick={() => setClosed(true)}
+                    className="mt-4 relative flex flex-row items-center h-11 font-bold focus:outline-none hover:bg-[#111827] text-white border-l-8 border-transparent hover:border-red-800 pr-6"
+                  >
+                    <span className="inline-flex justify-center items-center ml-4">
+                  
+                    </span>
+                    <span className="ml-2 text-sm tracking-wide truncate">
+                   Gobernaciones
+                    </span>
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    to="/alcaldia"
+onClick={() => setClosed(true)}
+                    className="mt-2 relative flex flex-row items-center h-11 font-bold focus:outline-none hover:bg-[#111827] text-white border-l-8 border-transparent hover:border-red-800 pr-6"
+                  >
+                    <span className="inline-flex justify-center items-center ml-4">
+                  
+                    </span>
+                    <span className="ml-2 text-sm tracking-wide truncate">
+                       Alcaldias
+                    </span>
+                  </Link>
+                </li>
+
               </ul>
             </div>
           </div>
