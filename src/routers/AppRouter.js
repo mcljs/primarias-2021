@@ -20,6 +20,8 @@ import {GobernacionScreen} from '../components/screen/Gobernacion';
 import {AlcaldiaScreen} from '../components/screen/Alcaldia';
 import {ConcejalesScreen} from '../components/screen/Concejales';
 import {LegislativosScreen} from '../components/screen/Legislativos';
+import PerfilGobernacion from '../components/screen/perfil-gobernacion';
+import PerfilAlcaldia from '../components/screen/perfil-alcaldia';
 export const AppRouter = () => {
 
     const dispatch = useDispatch();
@@ -98,7 +100,19 @@ export const AppRouter = () => {
                         path="/legislativos"
                         component={ LegislativosScreen }
                     />
+ <PrivateRoute 
+                        exact
+                        isAuthenticated={ isLoggedIn }
+                        path="/perfil-gobernacion"
+                        component={ PerfilGobernacion }
+                    />
 
+ <PrivateRoute 
+                        exact
+                        isAuthenticated={ isLoggedIn }
+                        path="/perfil-alcaldia"
+                        component={ PerfilAlcaldia }
+                    />
         </Menu>
                     <Redirect to="/auth/login" />
 

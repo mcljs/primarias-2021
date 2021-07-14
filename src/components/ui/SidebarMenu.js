@@ -48,23 +48,18 @@ onClick={() => setClosed(true)}
                     </span>
                   </Link>
                 </li>
-    <li>
-                  <Link
-                    to="/legislativos"
-onClick={() => setClosed(true)}
-                    className="mt-2 relative flex flex-row items-center h-11 font-bold focus:outline-none hover:bg-[#111827] text-white border-l-8 border-transparent hover:border-red-800 pr-6"
-                  >
-                    <span className="inline-flex justify-center items-center ml-4">
-                  
-                    </span>
-                    <span className="ml-2 text-sm tracking-wide truncate">
-                       Concejos Legislativos
-                    </span>
-                  </Link>
+
+
+   <li className="px-6 py-4">
+                  <div className="flex flex-row items-center  h-8">
+                    <div className="mt-4 text-sm font-light tracking-wide text-white ">
+                      Carga de Perfil del<br/> Pre Candidato/a
+                    </div>
+                  </div>
                 </li>
    <li>
                   <Link
-                    to="/concejales"
+                    to="/perfil-gobernacion"
 onClick={() => setClosed(true)}
                     className="mt-2 relative flex flex-row items-center h-11 font-bold focus:outline-none hover:bg-[#111827] text-white border- border-l-8 border-transparent hover:border-red-800 pr-6"
                   >
@@ -72,11 +67,25 @@ onClick={() => setClosed(true)}
                   
                     </span>
                     <span className="ml-2 text-sm tracking-wide truncate">
-                       Concejos Municipales
+                      Gobernación
                     </span>
                   </Link>
                 </li>
 
+   <li>
+                  <Link
+                    to="/perfil-alcaldia"
+onClick={() => setClosed(true)}
+                    className="mt-2 relative flex flex-row items-center h-11 font-bold focus:outline-none hover:bg-[#111827] text-white border- border-l-8 border-transparent hover:border-red-800 pr-6"
+                  >
+                    <span className="inline-flex justify-center items-center ml-4">
+                  
+                    </span>
+                    <span className="ml-2 text-sm tracking-wide truncate">
+                      Alcaldia
+                    </span>
+                  </Link>
+                </li>
               </ul>
             </div>
           </div>
