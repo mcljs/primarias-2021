@@ -22,6 +22,8 @@ import {ConcejalesScreen} from '../components/screen/Concejales';
 import {LegislativosScreen} from '../components/screen/Legislativos';
 import PerfilGobernacion from '../components/screen/perfil-gobernacion';
 import PerfilAlcaldia from '../components/screen/perfil-alcaldia';
+import ReporteDiario from '../components/screen/ReporteDiario';
+
 import Loaded from '../components/Loaded';
 
 export const AppRouter = () => {
@@ -117,6 +119,12 @@ export const AppRouter = () => {
                         isAuthenticated={ isLoggedIn }
                         path="/legislativos"
                         component={ LegislativosScreen }
+                    />
+ <PrivateRoute 
+                        exact
+                        isAuthenticated={ isLoggedIn }
+                        path="/reporte-diario"
+                        component={ ReporteDiario }
                     />
  <PrivateRoute 
                         exact
