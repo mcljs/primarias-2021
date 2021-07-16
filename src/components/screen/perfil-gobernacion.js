@@ -14,7 +14,7 @@ const PerfilGobernacion = (  ) => (
         <hr className="nt-8 border-t-2 w-20 mx-auto"/>
       </h1>
         <div className="mt-[1600px] pr-20">
-            <iframe className="responsive-iframe  md:pl-[70px] pl-4 freebirdLightBackground" src="https://docs.google.com/forms/d/e/1FAIpQLSd2yy3BFMYw-e5P8TKjgHcjxNYqgNjz4Ivy_gfjJYIhoXO5rQ/viewform?embedded=true"   frameborder="0" marginheight="0" marginwidth="0"></iframe>
+            <iframe className="responsive-iframe  md:pl-[70px] pl-4 freebirdLightBackground" src="https://docs.google.com/forms/d/e/1FAIpQLSfpqyahuel8x1oJlk63c9zsBanG_HdYZD30tnaYtHzMcv6_kQ/viewform?embedded=true"   frameborder="0" marginheight="0" marginwidth="0"></iframe>
 
 
 </div>
