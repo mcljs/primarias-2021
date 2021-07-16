@@ -58,7 +58,7 @@ onClick={() => setClosed(true)}
                     </div>
                   </div>
                 </li>
-                <li>
+               
      <li>
                       <Link
                     to="/reporte-diario"
