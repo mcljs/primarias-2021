@@ -1,7 +1,7 @@
 import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 
-import { Link } from 'react-router-dom';
+import  Link from '../Link';
 import { useForm } from '../../hooks/useForm';
 import { startLoginEmailPassword, startGoogleLogin } from '../../actions/auth';
 
