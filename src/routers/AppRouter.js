@@ -126,12 +126,12 @@ export const AppRouter = () => {
                         path="/reporte-diario"
                         component={ ReporteDiario }
                     />
- <PrivateRoute 
+         {/* <PrivateRoute 
                         exact
                         isAuthenticated={ isLoggedIn }
                         path="/perfil-gobernacion"
                         component={ PerfilGobernacion }
-                    />
+                    />*/}
 
  <PrivateRoute 
                         exact

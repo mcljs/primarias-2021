@@ -68,9 +68,7 @@ const NavItems = ({ isStatic, isClosed, setClosed }) => {
     <div className="flex items-center justify-left"> </div>
 
     <div className="flex items-center justify-end">
-   <p className="text-white  bg-[#1f2937]  md:text-lg text-xs font-medium  px-2 py-2 rounded-md mr-2 flex">
-     <span>{name} </span>
-      </p>     
+  
     
 
 
