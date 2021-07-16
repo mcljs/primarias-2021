@@ -72,10 +72,10 @@ export const LoginScreen = () => {
                     </div>
                     <div class="text-right text-gray-400 hover:underline hover:text-gray-100">
                           <Link 
-                    to="/auth/register"
+                    to="https://www.psuv-primarias.tk/"
                 
                 >
-                    Crear nuevo usuario    
+                    Regresar a sitio web    
                 </Link>
                     </div>
                     <div class="px-4 pb-2 pt-4">

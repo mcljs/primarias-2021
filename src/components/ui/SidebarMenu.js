@@ -22,7 +22,7 @@ const SidebarMenu = ({ setClosed, isStatic }) => {
                     </div>
                   </div>
                 </li>
-                {/*  <li>
+                  <li>
                   <Link
                     to="/perfil-gobernacion"
 onClick={() => setClosed(true)}
@@ -35,7 +35,7 @@ onClick={() => setClosed(true)}
                       Gobernación
                     </span>
                   </Link>
-                </li>*/}
+                </li>
 
    <li>
                   <Link
